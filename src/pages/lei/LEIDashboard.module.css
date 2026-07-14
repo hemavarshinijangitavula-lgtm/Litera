@@ -1,0 +1,107 @@
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.row57 {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .row57 {
+    grid-template-columns: 1fr;
+  }
+  .page {
+    padding: 16px;
+  }
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-card);
+  padding: 24px;
+}
+
+.cardTitle {
+  margin: 0 0 16px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}
+
+.noAction {
+  color: var(--text-secondary);
+  font-size: 15px;
+  padding: 24px 0;
+}
+
+.loadingText {
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.centerWrap {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.stateCard {
+  background: var(--bg-card);
+  border-radius: var(--radius-card);
+  padding: 48px;
+  max-width: 480px;
+  text-align: center;
+}
+
+.stateCard p {
+  color: var(--text-secondary);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.warn {
+  font-size: 32px;
+  color: var(--sev-critical);
+}
+
+.scoreIcon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--brand-dim);
+  color: var(--brand);
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+}
+
+.primaryBtn {
+  margin-top: 16px;
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-pill);
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  filter: brightness(1.12);
+}

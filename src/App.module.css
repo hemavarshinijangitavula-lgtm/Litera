@@ -1,0 +1,45 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--bg-raise);
+  background: var(--bg-card);
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  color: var(--text-secondary);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.active {
+  color: var(--brand);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login {
+  text-align: center;
+  padding: 120px 24px;
+  color: var(--text-secondary);
+}
+
+.login h1 {
+  color: var(--text-primary);
+  font-size: 32px;
+}

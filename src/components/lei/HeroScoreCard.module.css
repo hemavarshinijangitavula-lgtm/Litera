@@ -1,0 +1,76 @@
+.card {
+  background: radial-gradient(circle at 50% 30%, var(--brand-glow), var(--bg-card) 70%);
+  padding: 48px;
+  border-radius: var(--radius-card);
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label {
+  color: var(--text-secondary);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.tierPill {
+  padding: 8px 16px;
+  border: 1px solid;
+  border-radius: var(--radius-pill);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.score {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+  margin: 16px 0 4px;
+}
+
+.delta {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.progressWrap {
+  margin-top: 8px;
+}
+
+.progressLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.muted {
+  color: var(--text-muted);
+}
+
+.track {
+  height: 6px;
+  background: var(--bg-raise);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.8s var(--ease);
+}
+
+.toNext {
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: 12px;
+}

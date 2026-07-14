@@ -1,0 +1,49 @@
+.tooltip {
+  background: var(--bg-card);
+  border: 1px solid var(--bg-raise);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.legend {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.legendRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.legendLabel {
+  flex: 0 0 110px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.legendBar {
+  flex: 1;
+  max-width: 80px;
+  height: 4px;
+  background: var(--bg-raise);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.legendFill {
+  height: 100%;
+  background: var(--brand);
+  border-radius: 2px;
+}
+
+.legendScore {
+  font-size: 12px;
+  color: var(--text-secondary);
+  min-width: 28px;
+  text-align: right;
+}

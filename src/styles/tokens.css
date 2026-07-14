@@ -1,0 +1,60 @@
+:root {
+  /* Backgrounds */
+  --bg-base: #0a0f1e;
+  --bg-card: #111827;
+  --bg-raise: #1a2235;
+  --bg-hover: #1e293b;
+
+  /* Brand */
+  --brand: #6366f1;
+  --brand-dim: #818cf820;
+  --brand-glow: #6366f140;
+
+  /* Tier colours */
+  --tier-beginner: #64748b;
+  --tier-developing: #f59e0b;
+  --tier-career-ready: #3b82f6;
+  --tier-advanced: #10b981;
+  --tier-competitive: #f97316;
+
+  /* Severity */
+  --sev-critical: #ef4444;
+  --sev-important: #f59e0b;
+  --sev-recommended: #6366f1;
+
+  /* Text */
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+
+  /* Misc */
+  --radius-card: 16px;
+  --radius-pill: 999px;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg-base);
+  color: var(--text-primary);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+code,
+.mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+  color: var(--brand);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
